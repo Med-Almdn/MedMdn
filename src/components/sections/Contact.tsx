@@ -76,7 +76,7 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <section  id="contact" className="section overflow-x-hidden bg-gray-950 py-16">
+    <section  id="contact" className="section overflow-x-hidden bg-gray-950 py-20">
       <ToastContainer position="top-right" autoClose={3000} theme="dark" />
 
       <div className="container-custom max-w-2xl mx-auto">

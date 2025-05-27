@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react'; 
 import { BookOpen, ExternalLink } from 'lucide-react';
 
 export const Research: React.FC = () => {
+  const [expanded, setExpanded] = useState(false);
   return (
+    
     <section id="research" className="section bg-gray-900">
       <div className="container-custom">
         <h2 className="section-title">Research & Publications</h2>
@@ -25,14 +27,24 @@ export const Research: React.FC = () => {
               
               <div className="mb-6">
                 <h4 className="text-lg font-medium mb-2 text-gray-300">Abstract</h4>
-                <p className="text-gray-400">
-                  This research paper explores the advancements and challenges in virtualization 
-                  technologies within cloud computing environments. It analyzes different 
-                  virtualization approaches, their performance implications, security considerations, 
-                  and future trends. The study includes comparative analysis of container-based and 
-                  hypervisor-based virtualization, with practical performance metrics and implementation 
-                  guidelines for optimal resource utilization.
-                </p>
+                <div className="text-gray-400">
+                  <p className={`sm:block ${expanded ? '' : 'line-clamp-5 sm:line-clamp-none'}`}>
+                    This research paper explores the advancements and challenges in virtualization 
+                    technologies within cloud computing environments. It analyzes different 
+                    virtualization approaches, their performance implications, security considerations, 
+                    and future trends. The study includes comparative analysis of container-based and 
+                    hypervisor-based virtualization, with practical performance metrics and implementation 
+                    guidelines for optimal resource utilization.
+                  </p>
+                  
+                  {/* Read More/Less only on mobile */}
+                  <button
+                    onClick={() => setExpanded(!expanded)}
+                    className="mt-2 text-green-400 text-sm underline sm:hidden"
+                  >
+                    {expanded ? 'Show Less' : 'Read More'}
+                  </button>
+                </div>
               </div>
               
               <div className="flex flex-wrap gap-3 mb-6">
