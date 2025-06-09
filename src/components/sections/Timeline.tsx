@@ -16,12 +16,6 @@ export const Timeline: React.FC = () => {
       description: 'Started my academic journey in Computer Science, focusing on fundamental programming concepts and software development principles.'
     },
     {
-      year: '2022',
-      title: 'Internship',
-      subtitle: 'Fallah Biougra',
-      description: 'Gained practical experience in software development, working on real-world projects and improving my technical skills.'
-    },
-    {
       year: '2023',
       title: 'Internship',
       subtitle: 'Steamos',
