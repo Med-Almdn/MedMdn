@@ -94,7 +94,7 @@ const PROJECTS: Project[] = [
     title: 'Soursz Music Platform',
     description:
       'A modern music promotion platform showcasing artists, releases, and pricing plans with a clean UI, smooth navigation, and responsive design.',
-    image: 'https://private-user-images.githubusercontent.com/123555974/530967194-cc6d7193-43b2-4f65-a360-6a0b90644a0f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwOTY1MjksIm5iZiI6MTc2NzA5NjIyOSwicGF0aCI6Ii8xMjM1NTU5NzQvNTMwOTY3MTk0LWNjNmQ3MTkzLTQzYjItNGY2NS1hMzYwLTZhMGI5MDY0NGEwZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQxMjAzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNGNjOWFkODhjODNmYWU5OTM4MDMxMTJhNTgyZWU4OTIwYjZiZmZhOTI2YmE0NDNlZmQzOTNjNGEyN2U3ZjU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UnmcW_CvjSRp6Ng4qSQZXci6e125JHrXJKrqBuFWt5M',
+    image: '/images/soursz-music.png',
     date: 'June 2025',
     tools: ['React', 'Vite', 'TailwindCSS', 'Framer Motion'],
     category: ['Web', 'Backend'],
