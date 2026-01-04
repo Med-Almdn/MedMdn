@@ -94,7 +94,7 @@ const PROJECTS: Project[] = [
     title: 'Soursz Music Platform',
     description:
       'A modern music promotion platform showcasing artists, releases, and pricing plans with a clean UI, smooth navigation, and responsive design.',
-    image: '/images/soursz-music.png',
+    image: 'https://github.com/Med-Almdn/soursz-music/blob/main/FaceVision.png?raw=true',
     date: 'June 2025',
     tools: ['React', 'Vite', 'TailwindCSS', 'Framer Motion'],
     category: ['Web', 'Backend'],
