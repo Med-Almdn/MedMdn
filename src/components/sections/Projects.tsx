@@ -79,17 +79,6 @@ const PROJECTS: Project[] = [
     github: 'https://github.com/Med-Almdn/BlockchainApp',
   },
   {
-    id: 'snake-sfml',
-    title: 'Snake Game (SFML)',
-    description:
-      'Classic Snake game built with C++ and SFML demonstrating OOP, game loop design, and rendering.',
-    image: 'https://github.com/Med-Almdn/Serpent-Game/blob/main/image.png?raw=true',
-    date: 'August 2023',
-    tools: ['C++', 'SFML', 'OOP'],
-    category: ['Games'],
-    github: 'https://github.com/Med-Almdn/Serpent-Game',
-  },
-  {
     id: 'soursz-music',
     title: 'Soursz Music Platform',
     description:
